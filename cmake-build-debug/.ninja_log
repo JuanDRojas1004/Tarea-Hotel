@@ -1,0 +1,15 @@
+# ninja log v6
+6	1367	7646209827480592	CMakeFiles/Hotel_Ejercicio.dir/main.cpp.obj	ca1b24099c1599ed
+1373	1634	7646209841159580	Hotel_Ejercicio.exe	9785ba1febc20663
+29	542	7646476108479749	CMakeFiles/Hotel_Ejercicio.dir/Cliente.cpp.obj	e4fb60633ef1b2f6
+25	604	7646476108439745	CMakeFiles/Hotel_Ejercicio.dir/Habitacion.cpp.obj	1bd5189207e9867
+33	726	7646476108520487	CMakeFiles/Hotel_Ejercicio.dir/Hotel.cpp.obj	6034a45450b3e9f0
+19	843	7646476108374274	CMakeFiles/Hotel_Ejercicio.dir/main.cpp.obj	ca1b24099c1599ed
+843	1161	7646476116627560	Hotel_Ejercicio.exe	2e68a57c7576fc67
+26	744	7646476595643172	CMakeFiles/Hotel_Ejercicio.dir/main.cpp.obj	ca1b24099c1599ed
+745	875	7646476602838496	Hotel_Ejercicio.exe	2e68a57c7576fc67
+30	726	7646480176172961	CMakeFiles/Hotel_Ejercicio.dir/main.cpp.obj	ca1b24099c1599ed
+28	747	7646480495012056	CMakeFiles/Hotel_Ejercicio.dir/main.cpp.obj	ca1b24099c1599ed
+748	875	7646480502206183	Hotel_Ejercicio.exe	2e68a57c7576fc67
+26	773	7646481467468904	CMakeFiles/Hotel_Ejercicio.dir/main.cpp.obj	ca1b24099c1599ed
+774	905	7646481474951193	Hotel_Ejercicio.exe	2e68a57c7576fc67

@@ -1,0 +1,3 @@
+C:/Users/juand/OneDrive/Desktop/CLionProjects/Hotel_Ejercicio/cmake-build-debug/CMakeFiles/Hotel_Ejercicio.dir
+C:/Users/juand/OneDrive/Desktop/CLionProjects/Hotel_Ejercicio/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/juand/OneDrive/Desktop/CLionProjects/Hotel_Ejercicio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
