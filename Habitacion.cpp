@@ -5,7 +5,7 @@
 #include "Habitacion.h"
 
 Habitacion::Habitacion(int num, string t): numero (num), tipo (t), ocupada(false) {
-    cout << "Habitacion creada: " << numero << tipo << endl;
+    cout << "Habitacion creada: " << numero << " " << tipo << endl;
 }
 
 int Habitacion::getNumero() const {return numero;}

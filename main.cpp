@@ -37,48 +37,47 @@ int main() {
 
         cin >> comando;
 
-        if (comando == "CREAR HABITACION") {
+        if (comando == "CREAR_HABITACION") {
 
             cin >> numero >> tipo;
             Habitacion* nuevaHabitacion = new Habitacion (numero, tipo);
             listaHabitaciones.push_back(nuevaHabitacion);
-            cout << "Habitacion: " << numero << "de tipo: " << tipo << "creada con exito" << endl;
 
         }
 
-        else if ( comando == "CREAR CLIENTE") {
+        else if ( comando == "CREAR_CLIENTE") {
             cin >> nombre >> id;
             Cliente* nuevoCliente = new Cliente (id, nombre);
             listaClientes.push_back(nuevoCliente);
         }
 
-        else if (comando == "AGREGAR HABITACION") {
+        else if (comando == "AGREGAR_HABITACION") {
             cin >> IndxHab;
             hotel.agregarHabitacion(listaHabitaciones[IndxHab]);
         }
 
-        else if (comando == "AGREGAR CLIENTE") {
+        else if (comando == "AGREGAR_CLIENTE") {
             cin >> IndxCli;
             hotel.registrarCliente(listaClientes[IndxCli]);
         }
 
-        else if (comando == "HABITACIONES HOTEL") {
+        else if (comando == "HABITACIONES_HOTEL") {
             hotel.mostrarHabitacion();
         }
 
-        else if (comando == "CLIENTES HOTEL"){
+        else if (comando == "CLIENTES_HOTEL"){
             hotel.mostrarClientes();
         }
 
-        else if (comando == "MOSTRAR CLIENTES") {
+        else if (comando == "MOSTRAR_CLIENTES") {
             mostrarTodosLosClientes();
         }
 
-        else if (comando == "MOSTRAR HABITACIONES") {
+        else if (comando == "MOSTRAR_HABITACIONES") {
             mostrarTodasLasHabitaciones();
         }
 
-        else if (comando == "DESTRUIR HOTEL") {
+        else if (comando == "DESTRUIR_HOTEL") {
             destruirHotel();
         }
 
