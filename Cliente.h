@@ -8,22 +8,21 @@
 #define CLIENTE_H
 using namespace std;
 
-
-
 class Cliente {
+
 private:
 
-    int id;
     string nombre;
+    int id;
 
 
 public:
 
-    Cliente(int i, string n);
+    Cliente(string n, int id);
 
     int getId();
 
-    string getNombre ();
+    string getNombre();
 };
 
 

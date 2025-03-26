@@ -4,10 +4,8 @@
 
 #include "Cliente.h"
 
-Cliente::Cliente(int i, string n): id(i), nombre(n) {
-    cout << "Cliente creado: " << nombre << id << endl;
-}
+Cliente::Cliente(string n, int id): nombre(n), id(id) {}
 
-int Cliente::getId() {return id; }
+int Cliente::getId() {return id;}
 
 string Cliente::getNombre() {return nombre;}

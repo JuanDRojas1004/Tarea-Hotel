@@ -1,40 +1,30 @@
 //
 // Created by juand on 25/03/2025.
 
-#include <iostream>
-#include <string>
-#include <vector>
-#ifndef HABITACION_H
-#define HABITACION_H
+#include<iostream>
+#include<string>
 using namespace std;
 
+#ifndef HABITACION_H
+
+#define HABITACION_H
 
 
 class Habitacion {
-private:
 
+private:
     int numero;
     string tipo;
     bool ocupada;
 
-
 public:
 
-    Habitacion(int num, string t);
+    Habitacion(int n, string t);
 
-    int getNumero() const;
+    int getNumero ();
 
-    string getTipo () const;
+    string getTipo ();
 
-    bool estaOcupada () const;
-
-    void ocupar ();
-
-    void desocupar ();
-
-
+    bool Ocupada();
 };
-
-
-
 #endif //HABITACION_H

@@ -4,16 +4,13 @@
 
 #include "Habitacion.h"
 
-Habitacion::Habitacion(int num, string t): numero (num), tipo (t), ocupada(false) {
-    cout << "Habitacion creada: " << numero << " " << tipo << endl;
+Habitacion::Habitacion(int n, string t): numero(n), tipo(t), ocupada(false) {
+    cout << "Habitacion creada con numero: " << numero << " " << "de tipo: " << tipo << endl;
 }
 
-int Habitacion::getNumero() const {return numero;}
+int Habitacion::getNumero() {return numero;}
 
-string Habitacion::getTipo() const {return tipo;}
+string Habitacion::getTipo() {return tipo;}
 
-bool Habitacion::estaOcupada() const {return ocupada;}
+bool Habitacion::Ocupada() {return ocupada;}
 
-void Habitacion::ocupar() { ocupada = true;}
-
-void Habitacion::desocupar() {ocupada = false;}
